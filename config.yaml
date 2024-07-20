@@ -1,0 +1,11 @@
+server:
+  address: :8080
+
+consul:
+  address: localhost:8500
+
+services:
+  user:
+    address: localhost:8081
+  order:
+    address: localhost:8082

@@ -4,11 +4,11 @@ import (
 	"log"
 	"net/http"
 
+	"github.com/173392531/distributed_system/config"
+	"github.com/173392531/distributed_system/discovery"
+	"github.com/173392531/distributed_system/gateway"
+	"github.com/173392531/distributed_system/service"
 	"github.com/gorilla/mux"
-	"github.com/your-username/go-distributed-system/config"
-	"github.com/your-username/go-distributed-system/discovery"
-	"github.com/your-username/go-distributed-system/gateway"
-	"github.com/your-username/go-distributed-system/service"
 )
 
 func main() {
