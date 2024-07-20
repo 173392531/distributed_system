@@ -12,3 +12,10 @@ go-distributed-system/
 │   ├── user.go
 │   └── order.go
 └── main.go
+
+
+<!-- 按以下顺序执行 -->
+go mod tidy
+go build
+
+go run main.go
